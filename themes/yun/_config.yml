@@ -5,7 +5,7 @@ mode: auto
 # Theme color for customize
 # Notice: color value must in double quotes: "#000000"
 colors:
-  primary: "#0078E7"
+  primary: "#F9BF45"
   # primary: "#6200ee"
   bg: "#f5f5f5"
   selection_bg: "#8e71c1"
@@ -17,7 +17,7 @@ colors:
 
 # Favicon
 # ---------------
-favicon: /yun.svg
+favicon: /favicon.ico
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -30,7 +30,7 @@ sidebar:
   # dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn@master/img/bg/dark-alpha-stars-timing-1.webp
   bg_position: bottom 1rem center
   tagcloud:
-    enable: false
+    enable: true
     amount: 20
 
 toc:
@@ -48,45 +48,41 @@ social:
     link: /atom.xml # config.feed.path
     icon: icon-rss-line
     color: orange
-  - name: QQ 群 389401003
-    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
-    link: https://qm.qq.com/cgi-bin/qm/qr?k=epvxdq1sknJe9JMj6J1LsBw4a6cI_2ln&jump_from=webapi
-    icon: icon-qq-line
-    color: "#12B7F5"
+#  - name: QQ 群 389401003
+#    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+#    link: https://qm.qq.com/cgi-bin/qm/qr?k=epvxdq1sknJe9JMj6J1LsBw4a6cI_2ln&jump_from=webapi
+#    icon: icon-qq-line
+#    color: "#12B7F5"
   - name: GitHub
-    link: https://github.com/YunYouJun
+    link: https://github.com/TennousuAthena
     icon: icon-github-line
     color: "#6e5494"
-  - name: 微博
-    link: https://weibo.com/jizhideyunyoujun
-    icon: icon-weibo-line
-    color: "#E6162D"
-  - name: 豆瓣
-    link: https://www.douban.com/people/yunyoujun/
-    icon: icon-douban-line
-    color: "#007722"
+#  - name: 微博
+#    link: https://weibo.com/jizhideyunyoujun
+#    icon: icon-weibo-line
+#    color: "#E6162D"
+#  - name: 豆瓣
+#    link: https://www.douban.com/people/yunyoujun/
+#    icon: icon-douban-line
+#    color: "#007722"
   - name: 网易云音乐
-    link: https://music.163.com/#/user/home?id=247102977
+    link: https://music.163.com/#/user/home?id=529715221
     icon: icon-netease-cloud-music-line
     color: "#C20C0C"
   - name: 知乎
-    link: https://www.zhihu.com/people/yunyoujun/
+    link: https://www.zhihu.com/people/qing-cao-mc
     icon: icon-zhihu-line
     color: "#0084FF"
   - name: 哔哩哔哩
-    link: https://space.bilibili.com/1579790
+    link: https://space.bilibili.com/16742974
     icon: icon-bilibili-line
     color: "#FF8EB3"
   # - name: POPI
   #   link: https://www.popiapp.cn/elpsycn
   #   icon: icon-questionnaire-line
   #   color: "#525252"
-  # - name: 微信公众号
-  #   link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
-  #   icon: icon-wechat-2-line
-  #   color: "#1AAD19"
   - name: Twitter
-    link: https://twitter.com/YunYouJun
+    link: https://twitter.com/_tennousuathena
     icon: icon-twitter-line
     color: "#1da1f2"
   # - name: Telegram
@@ -94,18 +90,18 @@ social:
   #   icon: icon-telegram-line
   #   color: "#0088CC"
   - name: Telegram Channel
-    link: https://t.me/elpsycn
+    link: https://t.me/qctech_news
     # icon: icon-telegram-fill
     icon: icon-telegram-line
     color: "#0088CC"
   - name: E-Mail
-    link: mailto:me@yunyoujun.cn
+    link: mailto:me@lemoe.cn
     icon: icon-mail-line
     color: "#8E71C1"
-  - name: Travelling
-    link: https://travellings.now.sh/
-    icon: icon-send-plane-2-line
-    color: black
+#  - name: Travelling
+#    link: https://travellings.now.sh/
+#    icon: icon-send-plane-2-line
+#    color: black
 
 codeblock:
   copy_btn: true
@@ -119,6 +115,10 @@ pages:
     url: /links/
     icon: icon-genderless-line
     color: dodgerblue
+  - name: 我的老婆们
+    url: /girls/
+    icon: icon-heart-line
+    color: red
 
 # pages
 # -------
@@ -126,17 +126,17 @@ pages:
 anonymous_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg
 
 albums:
-  enable: false
+  enable: true
   icon: icon-gallery-line
   src: /js/gallery-decrypt.js
 
 girls:
-  enable: false
+  enable: true
 
 # Sidebar Avatar
 avatar:
   enable: true
-  url: /yun.png
+  url: /assets/img/avatar.jpg
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -172,7 +172,7 @@ archive:
   last_word: 没有更多的黑历史了_(:з」∠)_
 
 wordcloud:
-  enable: false
+  enable: true
   height: 350
 
 # You can set color for every tag or category.
@@ -259,7 +259,7 @@ lazyload:
 
 # pjax
 pjax:
-  enable: false
+  enable: true
   src: /js/pjax.js
 
 # stylesheets loaded in the <head>
@@ -299,7 +299,7 @@ vendors:
 # UI
 banner:
   enable: true
-  title: 雅典娜小站
+  title: 雅典娜的小站
   src: /js/ui/banner.js
   border: true
   cloud:
@@ -314,7 +314,7 @@ font:
   cdn:
     enable: true
     lib:
-      - https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap
+      - https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@900&display=swap
   serif:
     family: "'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif"
     weight: 900
@@ -346,7 +346,7 @@ trianglify:
   opacity: 0.5
 
 cursor:
-  enable: false
+  enable: true
   default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
   pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
   text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
@@ -362,7 +362,7 @@ scrollreveal:
 
 bg_image:
   enable: true
-  url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg # recomend image related to your mode
+  url: /assets/img/impression.jpg # recomend image related to your mode
   dark: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg
   # blur: 30px
   opacity: 1
@@ -414,7 +414,7 @@ creative_commons:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
   enable: false
-  url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
+  url: https://github.com/TennousuAthena/tennousuAthena.github.io/tree/branch-name/subdirectory-name # Link for view source.
 
 # Footer Settings
 # ---------------
@@ -512,7 +512,7 @@ busuanzi:
 # Post wordcount
 # https://github.com/willin/hexo-wordcount
 wordcount:
-  enable: false
+  enable: true
   count: true
   time: true
 
@@ -528,11 +528,11 @@ engine_search:
   href: "https://www.google.com/search?q=site:"
   # href: "https://www.baidu.com/s?wd=site:"
   # href: "https://www.bing.com/search?q=site:"
-  domain: yunyoujun.cn
+  domain: lemoe.cn
 
 # https://github.com/wzpan/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   src: /js/search/local-search.js
 
 # https://github.com/oncletom/hexo-algolia
