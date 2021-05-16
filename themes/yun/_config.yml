@@ -606,7 +606,7 @@ aplayer:
 
 # special
 mourn:
-  enable: false
+  enable: true
   days:
     - "4-4"
     - "9-18"
@@ -628,3 +628,4 @@ slide:
   config:
     history: true
     mouseWheel: false
+

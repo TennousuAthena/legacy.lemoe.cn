@@ -97,8 +97,8 @@ livere:
 
 # https://github.com/utterance/utterances
 utterances:
-  enable: false
-  repo:
+  enable: true
+  repo: TennousuAthena/tennousuAthena.github.io
   issue-term: pathname
   # label: comment
   theme: github-light
