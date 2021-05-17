@@ -7,6 +7,8 @@ tags:
 
 整理了一部分常用命令，详见[官方文档](https://hexo.io/zh-cn/docs/commands)
 
+<!-- more -->
+
 # 命令
 
 ## 创作

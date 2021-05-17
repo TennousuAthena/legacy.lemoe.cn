@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: https://github.com/TennousuAthena/tennousuAthena.github.io
   branch: gh-pages
-  message: 	站点 {{ now('YYYY-MM-DD HH:mm:ss') }}) 部署
+  message: 	站点 {{ now('YYYY-MM-DD HH:mm:ss') }} 部署
