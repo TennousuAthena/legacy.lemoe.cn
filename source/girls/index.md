@@ -1,15 +1,9 @@
 ---
-title: 可爱的老婆（雾）们
-date: 2021-05-16 22:55:25
-icon: icon-women-line
-
-girls:
-  - name: 名称
-    avatar: 头像图片链接
-    from: 出自什么作品
-    url: 人物百科链接
-    reason: 喜欢的理由
-
+layout: girls
+title: 可爱的女孩子
+banner: <span title="大家都是我的天使！">排名不分先后</span>
+girls: https://lemoe.cn/assets/data/waifu.json
+random: true
 ---
 
 ![喜欢二次元这件事很恶心这一点我还是知道的](https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/meme/love-er-ci-yuan-is-sick.jpg)
