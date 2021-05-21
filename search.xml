@@ -4,13 +4,82 @@
   
     
     <entry>
+      <title>在线图片压缩服务推荐</title>
+      <link href="2021/05/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E6%9C%8D%E5%8A%A1%E6%8E%A8%E8%8D%90/"/>
+      <url>2021/05/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E6%9C%8D%E5%8A%A1%E6%8E%A8%E8%8D%90/</url>
+      
+        <content type="html"><![CDATA[<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在设计网页、编写文档等过程中，我们常需要对素材图片进行压缩以缩短用户加载时间、节约服务器宽带开支。</p><p>同时，如果图片压缩交由 <em>后端服务器</em> 处理，可能存在隐私安全问题，因此，本文推荐的服务均由 <strong>浏览器客户端</strong> 本地处理，不存在泄露风险。下面推荐一些 <strong>压缩率</strong> 高、方便快捷的在线图片压缩服务。</p><span id="more"></span><h3 id="Picdiet"><a href="#Picdiet" class="headerlink" title="Picdiet"></a>Picdiet</h3><p><a href="https://www.picdiet.com/"><img src="/2021/05/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E6%9C%8D%E5%8A%A1%E6%8E%A8%E8%8D%90/picdiet.svg" class="" title="Picdiet" loading="lazy"></a><br>地址：<a href="https://www.picdiet.com/zh-cn">https://www.picdiet.com/</a></p><blockquote><p>Picdiet是一款完全免费的在线批量压缩图片神器，它不需要后端服务器或者API的支持，仅通过你的浏览器来压缩图片大小，这意味着它压缩图片极快并且不会导致隐私或敏感图片泄漏给第三方。同时，测试结果也证明其压缩表现要远好于常规的压缩软件如：jpegoptim，jpegtran，jpegrescan。</p></blockquote><img src="/2021/05/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E6%9C%8D%E5%8A%A1%E6%8E%A8%E8%8D%90/compare.jpg" class="" title="Picdiet使用前后对比，默认放大倍率下几乎没有变化" loading="lazy"><p>Picdiet 对 <em>JPEG</em> 文件支持较好，有时会出现PNG文件无法压缩的问题</p><h3 id="Squoosh"><a href="#Squoosh" class="headerlink" title="Squoosh"></a>Squoosh</h3><p><a href="https://squoosh.app/"><img src="/2021/05/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E6%9C%8D%E5%8A%A1%E6%8E%A8%E8%8D%90/squoosh-logo-with-text.svg" class="" title="Squoosh" loading="lazy"></a><br>地址：<a href="https://squoosh.app/">https://squoosh.app/</a></p><blockquote><p>Squoosh是一个图像压缩Web应用，可让深入配置各种图像压缩器提供的高级选项。</p></blockquote><p>Squoosh由Google Chrome Labs维护，在<a href="https://github.com/GoogleChromeLabs/squoosh">Github上开源</a>，支持以 <em>API</em> 、 <em>CLI</em> 的方式运行，也可以亲手搭建部署：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/GoogleChromeLabs/squoosh</span><br><span class="line">npm install</span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure><p>使用步骤简洁明了，与Picdiet不同的是，Squoosh支持设定压缩算法、修改图片等更高级的设置</p><img src="/2021/05/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9%E6%9C%8D%E5%8A%A1%E6%8E%A8%E8%8D%90/image.jpg" class="" title="Squoosh" loading="lazy"><p>以上。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 评测 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo速查表</title>
+      <link href="2021/05/Hexo%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
+      <url>2021/05/Hexo%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
+      
+        <content type="html"><![CDATA[<p>整理了一部分常用命令，详见<a href="https://hexo.io/zh-cn/docs/commands">官方文档</a></p><span id="more"></span><h1 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h1><h2 id="创作"><a href="#创作" class="headerlink" title="创作"></a>创作</h2><h3 id="新文章"><a href="#新文章" class="headerlink" title="新文章"></a>新文章</h3><pre><code>hexo new &lt;标题&gt;</code></pre><h3 id="新草稿"><a href="#新草稿" class="headerlink" title="新草稿"></a>新草稿</h3><pre><code>hexo new draft &lt;标题&gt;</code></pre><h3 id="发布草稿"><a href="#发布草稿" class="headerlink" title="发布草稿"></a>发布草稿</h3><pre><code>hexo publish [layout] &lt;文件名&gt;</code></pre><h3 id="新页面"><a href="#新页面" class="headerlink" title="新页面"></a>新页面</h3><pre><code>hexo new page &lt;标题&gt;</code></pre><h2 id="维护"><a href="#维护" class="headerlink" title="维护"></a>维护</h2><h3 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h3><pre><code>hexo g</code></pre><h3 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h3><pre><code>hexo s</code></pre><h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><pre><code>hexo d</code></pre><h3 id="清理缓存"><a href="#清理缓存" class="headerlink" title="清理缓存"></a>清理缓存</h3><pre><code>hexo clean</code></pre><h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><table><thead><tr><th>参数</th><th>描述</th><th>默认值</th></tr></thead><tbody><tr><td><code>layout</code></td><td>布局</td><td><a href="/zh-cn/docs/configuration#%E6%96%87%E7%AB%A0"><code>config.default_layout</code></a></td></tr><tr><td><code>title</code></td><td>标题</td><td>文章的文件名</td></tr><tr><td><code>date</code></td><td>建立日期</td><td>文件建立日期</td></tr><tr><td><code>updated</code></td><td>更新日期</td><td>文件更新日期</td></tr><tr><td><code>comments</code></td><td>开启文章的评论功能</td><td>true</td></tr><tr><td><code>tags</code></td><td>标签（不适用于分页）</td><td></td></tr><tr><td><code>categories</code></td><td>分类（不适用于分页）</td><td></td></tr><tr><td><code>permalink</code></td><td>覆盖文章地址</td><td></td></tr><tr><td><code>lang</code></td><td>覆盖语言设置</td><td>不再从 <code>_config.yml</code> 继承</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 运维 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="2021/05/hello-world/"/>
       <url>2021/05/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>你好，世界！你好，Hexo！</p><span id="more"></span><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>赛博重庆2077</title>
+      <link href="2021/04/cyber-chongqing-2021/"/>
+      <url>2021/04/cyber-chongqing-2021/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://file-cdn.qmcmc.cn/lemoe/2021/01/20210117012558645.jpg" alt="Cyber Chongqing" loading="lazy"></p><p>初次尝试赛博朋克风调色（其实就是瞎调XD</p><span id="more"></span>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 调色 </tag>
+            
+        </tags>
       
     </entry>
     
