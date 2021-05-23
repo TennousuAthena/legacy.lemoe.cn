@@ -1,19 +1,15 @@
 ---
 layout: girls
 title: 可爱的女孩子
-banner: <span title="大家都是我的天使！">排名不分先后</span>
-girls: https://lemoe.cn/assets/data/waifu.json
+banner: <span title="大家都是我的天使！">顺序随机，排名不分先后</span>
+girls: /assets/data/waifu.json
 random: true
 ---
 
-![喜欢二次元这件事很恶心这一点我还是知道的](https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/meme/love-er-ci-yuan-is-sick.jpg)
+
 ![爷就是二次元](https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/meme/i-am-er-ci-yuan.jpg)
 ![她们是点阵、是数据、这种事情我知道。](https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/meme/i-like-paper-girls.jpg)
 
-## 原则
-
-- 可爱
-- 拥有某种我喜爱的特质
 
 ![我对普通的人类没有兴趣](https://upyun.yunyoujun.cn/images/i-am-not-interested-in-ordinary-human.jpg)
 

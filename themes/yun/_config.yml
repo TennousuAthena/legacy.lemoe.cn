@@ -115,10 +115,7 @@ pages:
     url: /links/
     icon: icon-genderless-line
     color: dodgerblue
-  - name: 我的老婆们
-    url: /girls/
-    icon: icon-heart-line
-    color: red
+
 
 # pages
 # -------
@@ -163,9 +160,10 @@ menu:
       path: /tags/
       icon: icon-price-tag-3-line
   custom:
-    title: 文档
-    path: /
-    icon: icon-settings-line
+    title: 我的老婆们
+    path: /girls/
+    icon: icon-heart-line
+    
 
 # archive
 archive:
