@@ -1,5 +1,5 @@
 {
-  "name": "hexo-site",
+  "name": "lemoe-cn",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-	"prebuild": "pip install requests && python get-version.py"
+	"postbuild": "pip install requests && python get-version.py"
   },
   "hexo": {
     "version": "5.4.0"
@@ -30,5 +30,6 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3",
     "hexo-wordcount": "^6.0.1"
-  }
+  },
+  "gh": "TennousuAthena/tennousuAthena.github.io"
 }
