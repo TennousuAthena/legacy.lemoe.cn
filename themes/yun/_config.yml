@@ -268,6 +268,7 @@ css:
 js:
   - /js/utils.js
   - /js/hexo-theme-yun.js
+  - /assets/js/version.js
 
 # custom your assets in head
 head:
@@ -411,8 +412,8 @@ creative_commons:
 # Post edit
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 post_edit:
-  enable: false
-  url: https://github.com/TennousuAthena/tennousuAthena.github.io/tree/branch-name/subdirectory-name # Link for view source.
+  enable: true
+  url: https://github.com/TennousuAthena/tennousuAthena.github.io/tree/master/source/ # Link for view source.
 
 # Footer Settings
 # ---------------
@@ -455,7 +456,7 @@ footer:
   #   prefix: 本网站由
   #   suffix: 提供 CDN 加速
   # Any custom text can be defined here.
-  # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
+  custom_text: <span>Hosted by <a href="https://github.com/TennousuAthena/tennousuAthena.github.io" href="_blank">GitHub</a>, With <a href="https://curl.qcloud.com/ysARP1Dp" rel="noopener" target="_blank"><img src="/assets/img/qcloud.svg" alt="腾讯云"></img></a> & <a href="https://www.cloudflare.com/">CloudFlare</a></span> Speeding Up
 
 # Post meta display settings
 post_meta:
@@ -519,7 +520,7 @@ search:
   modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/mountain-blur-30px.jpg
-  # placeholder: 想要搜些什么？
+  placeholder: 搜索其实 Too Simple
 
 engine_search:
   enable: false
