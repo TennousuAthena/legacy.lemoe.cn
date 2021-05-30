@@ -375,15 +375,15 @@ reward:
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
     - name: 支付宝
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+      path: https://cdn.jsdelivr.net/gh/TennousuAthena/tennousuathena.github.io/source/assets/img/donate/alipay.png
       color: "#00A3EE"
       icon: icon-alipay-line
-    - name: QQ 支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
-      color: "#12B7F5"
-      icon: icon-qq-line
+#    - name: QQ 支付
+#      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+#      color: "#12B7F5"
+#      icon: icon-qq-line
     - name: 微信支付
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+      path: https://cdn.jsdelivr.net/gh/TennousuAthena/tennousuathena.github.io/source/assets/img/donate/wechat.png
       color: "#2DC100"
       icon: icon-wechat-pay-line
     # - name: paypal
