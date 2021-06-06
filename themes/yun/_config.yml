@@ -268,7 +268,7 @@ css:
 js:
   - /js/utils.js
   - /js/hexo-theme-yun.js
-  - /assets/js/version.js
+#  - /assets/js/version.js
 
 # custom your assets in head
 head:
@@ -276,6 +276,7 @@ head:
   js:
     base:
     async:
+      version: /assets/js/version.js
     defer:
 
 # cdn for third-party library (always include)
