@@ -78,7 +78,7 @@
         "from": "这个美术社大有问题!",
         "tachie": "19_1_usami_mizuki.png",
         "anilist_id": 82335,
-        "avatar": "https://s4.anilist.co/file/anilistcdn/character/medium/n82335-HAWUXeckoWID.jpg"
+        "avatar": "https://cdn.jsdelivr.net/gh/TennousuAthena/tennousuathena.github.io@master/source/assets/img/waifu/%E5%AE%87%E4%BD%90%E7%BE%8E%E7%91%9E%E5%B8%8C.jpg"
     },
     {
         "name": "山内樱良",
@@ -188,5 +188,20 @@
         "from": "旋风管家",
         "reason": "没错就是我自己",
         "avatar": "https://cdn.jsdelivr.net/gh/TennousuAthena/tennousuathena.github.io@master/source/assets/img/waifu/%E5%A4%A9%E7%8E%8B%E5%B7%9E%E9%9B%85%E5%85%B8%E5%A8%9C.jpg"
+    },
+    {
+        "name": "奈亚子",
+        "from": "潜行吧！奈亚子",
+        "avatar": "https://cdn.jsdelivr.net/gh/TennousuAthena/tennousuathena.github.io@master/source/assets/img/waifu/%E5%A5%88%E4%BA%9A%E5%AD%90.jpg"
+    },
+    {
+        "name": "甘雨",
+        "from": "原神",
+        "avatar": "https://cdn.jsdelivr.net/gh/TennousuAthena/tennousuathena.github.io@master/source/assets/img/waifu/%E7%94%98%E9%9B%A8.jpg"
+    },
+    {
+        "name": "行秋",
+        "from": "原神",
+        "avatar": "https://cdn.jsdelivr.net/gh/TennousuAthena/tennousuathena.github.io@master/source/assets/img/waifu/%E8%A1%8C%E7%A7%8B.jpg"
     }
 ]
