@@ -24,6 +24,9 @@ function initPjax() {
 function onPjaxSuccess() {
   isHome();
   // Yun.utils.renderKatex();
+  console.log(window.twicomment)
+  
+  window.twicomment.el = '#tcomment'
   twikoo.init(window.twicomment)
 }
 

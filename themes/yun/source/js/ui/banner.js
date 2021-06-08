@@ -67,3 +67,4 @@ function initBanner() {
 }
 
 document.addEventListener("DOMContentLoaded", initBanner);
+document.addEventListener("pjax:success", initBanner);
