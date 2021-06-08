@@ -4,7 +4,7 @@ window.onload=function(){
     {
         var xmlhttp;
         xmlhttp=new XMLHttpRequest();
-        xmlhttp.open("GET","/version.json",false);
+        xmlhttp.open("GET","/version.json?"+Math.round(new Date().getTime()),false);
         xmlhttp.send();
         return JSON.parse(xmlhttp.response);
     }
