@@ -2,6 +2,8 @@
 script(src=theme.vendors.twikoo)
 - var twikooConfig = JSON.stringify(theme.twikoo)
 script.
-  const twikooConfig = !{twikooConfig}
-  twikooConfig.el = '#tcomment'
-  twikoo.init(twikooConfig)
+  window.twicomment = !{twikooConfig}
+  console.log(window.twicomment)
+  
+  window.twicomment.el = '#tcomment'
+  twikoo.init(window.twicomment)

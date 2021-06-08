@@ -23,8 +23,10 @@ function initPjax() {
  */
 function onPjaxSuccess() {
   isHome();
-  Yun.utils.renderKatex();
+  // Yun.utils.renderKatex();
+  twikoo.init(window.twicomment)
 }
+
 
 document.addEventListener("DOMContentLoaded", initPjax);
 document.addEventListener("DOMContentLoaded", isHome);

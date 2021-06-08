@@ -257,7 +257,7 @@ lazyload:
 
 # pjax
 pjax:
-  enable: false
+  enable: true
   src: /js/pjax.js
 
 # stylesheets loaded in the <head>
@@ -457,7 +457,7 @@ footer:
   #   prefix: 本网站由
   #   suffix: 提供 CDN 加速
   # Any custom text can be defined here.
-  custom_text: <span>Hosted by <a href="https://github.com/TennousuAthena/tennousuAthena.github.io" href="_blank">GitHub</a>, With <a href="https://curl.qcloud.com/ysARP1Dp" rel="noopener" target="_blank"><img src="/assets/img/qcloud.svg" alt="腾讯云"></img></a> & <a href="https://www.cloudflare.com/">CloudFlare</a></span> Speeding Up
+  custom_text: <span>Hosted by <a href="https://github.com/TennousuAthena/tennousuAthena.github.io" href="_blank">GitHub</a>, With <a href="https://curl.qcloud.com/ysARP1Dp" rel="noopener" target="_blank"><img src="/assets/img/qcloud.svg" alt="腾讯云"></img></a> & <a href="https://www.cloudflare.com/">CloudFlare</a> Speeding Up</span>
 
 # Post meta display settings
 post_meta:
@@ -573,7 +573,7 @@ leancloud_visitors:
 # math fomula
 # https://katex.org/
 katex:
-  copy_tex: true
+  copy_tex: false
   global: false
 
 # plugins

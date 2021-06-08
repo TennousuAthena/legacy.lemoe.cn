@@ -1,6 +1,6 @@
 // toggle sidebar nav and panel
-const activeTabClass = "sidebar-nav-active";
-const activePanelClass = "sidebar-panel-active";
+window.activeTabClass = "sidebar-nav-active";
+window.activePanelClass = "sidebar-panel-active";
 
 /**
  * 切换侧边栏目录列表数字显示
@@ -16,7 +16,7 @@ function toggleTocNumber() {
 
   tocBtn.addEventListener("click", () => {
     // 被激活时才可切换
-    const isActived = tocBtn.classList.contains(activeTabClass);
+    const isActived = tocBtn.classList.contains(window.activeTabClass);
     if (isActived) {
       const useTag = tocBtn.querySelector("use");
 
@@ -40,19 +40,19 @@ function toggleTocNumber() {
 function toggleSidebarNav() {
   document.querySelectorAll(".sidebar-nav li").forEach((el) => {
     el.onclick = function() {
-      if (this.classList.contains(activeTabClass)) {
+      if (this.classList.contains(window.activeTabClass)) {
         return;
       }
       document
-        .querySelector("." + activePanelClass)
-        .classList.remove(activePanelClass);
+        .querySelector("." + window.activePanelClass)
+        .classList.remove(window.activePanelClass);
       document
         .querySelector("#" + this.dataset.target)
-        .classList.add(activePanelClass);
+        .classList.add(window.activePanelClass);
       document
-        .querySelector("." + activeTabClass)
-        .classList.remove(activeTabClass);
-      this.classList.add(activeTabClass);
+        .querySelector("." + window.activeTabClass)
+        .classList.remove(window.activeTabClass);
+      this.classList.add(window.activeTabClass);
     };
   });
 }
