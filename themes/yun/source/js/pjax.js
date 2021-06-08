@@ -24,7 +24,7 @@ function initPjax() {
 function onPjaxSuccess() {
   isHome();
   // Yun.utils.renderKatex();
-  loadScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", function () {
+  window.loadScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", function () {
     console.log(window.twicomment)
     twikoo.init(window.twicomment)
   })

@@ -11,4 +11,6 @@ hexo.on("generateBefore", () => {
 hexo.on("ready", () => {
   const { version } = require("../../package.json");
   hexo.log.info(`Yun version ${version}. Guide: ${pkg.homepage}`);
+
+  hexo.log.info(`Project: https://github.com/TennousuAthena/tennousuAthena.github.io`);
 });
