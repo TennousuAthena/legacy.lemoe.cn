@@ -573,8 +573,8 @@ leancloud_visitors:
 # math fomula
 # https://katex.org/
 katex:
-  copy_tex: false
-  global: false
+  copy_tex: true
+  global: true
 
 # plugins
 aplayer:

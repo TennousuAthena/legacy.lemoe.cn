@@ -143,4 +143,4 @@ function initSidebar() {
 }
 
 document.addEventListener("DOMContentLoaded", initSidebar);
-document.addEventListener("pjax:success", initSidebar);
+document.addEventListener("pjax:success", toggleSidebarNav);

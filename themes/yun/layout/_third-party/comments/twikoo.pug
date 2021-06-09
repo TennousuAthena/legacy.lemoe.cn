@@ -20,9 +20,12 @@ script.
     script.src = url;
     document.getElementsByTagName("head")[0].appendChild(script);
   }
-  window.twicomment = !{twikooConfig}
-  window.twicomment.el = '#tcomment'
-    loadScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", function () {
+  if(typeof window.twicomment == "undefined"){
+    window.twicomment = !{twikooConfig}
+    window.twicomment.el = '#tcomment';
     console.log(window.twicomment)
+  }
+    loadScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", function () {
+    
     twikoo.init(window.twicomment)
   })
