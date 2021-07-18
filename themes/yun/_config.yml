@@ -574,12 +574,12 @@ leancloud_visitors:
 # math fomula
 # https://katex.org/
 katex:
-  copy_tex: true
-  global: true
+  copy_tex: false
+  global: false
 
 # plugins
 aplayer:
-  global: false
+  global: true
   meting: true
   # https://github.com/metowolf/MetingJS/tree/v1.2#option
   widget:
