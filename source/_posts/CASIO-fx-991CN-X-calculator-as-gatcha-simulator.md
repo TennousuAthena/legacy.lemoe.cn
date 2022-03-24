@@ -1,10 +1,13 @@
 ---
 title: CASIO fx-991CN X学生科学计算器概率发生器（抽卡）
 date: 2022-03-25 00:00:01
-tags: 计算器, 抽卡, 概率
+tags: 
+  - 计算器
+  - 抽卡
+  - 概率
 ---
 
-> 生命的意义在于整活  ——我。
+> 生命的意义在于整活  ——鲁迅。
 > 
 
 ![](https://file-cdn.qmcmc.cn/assets/open/fxgzedu.cn/img/Genshin_AD.webp)
@@ -36,15 +39,15 @@ Alpha+RanInt+范围可以产生~~伪~~随机整数
 
 而**原神**中不计保底时单次抽中五星的概率为
 
-$$
+{% katex %}
 0.6\%=0.006=\frac{3}{500} 
-$$
+{% endkatex %}
 
 那么我们一次**十连**出金的表达式如下
 
-$$
+{% katex %}
 \sum_{x=1}^{10}(ln_{RanInt\sharp (-2,497)} )
-$$
+{% endkatex %}
 
 按下等号便进行了一次十连，若出现**数学错误**那么恭喜出货！
 
@@ -56,9 +59,9 @@ $$
 
 不过，上次运算结果是可以调用的，也许，我们可以做到抽卡次数记录
 
-$$
+{% katex %}
 \sum_{x=1}^{10}(ln_{RanInt\sharp (-2,497)}\times 0+1 ) + Ans
-$$
+{% endkatex %}
 
 {% asset_img f6252c0a-2478-405e-ab0e-9b476889a09a_(1).gif %}
 
