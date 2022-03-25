@@ -503,9 +503,9 @@ say:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi:
   enable: true
-  site_uv: true
+  site_uv: false
   site_uv_icon: icon-user-line
-  site_pv: true
+  site_pv: false
   site_pv_icon: icon-eye-line
   page_pv: true
   page_pv_icon: icon-eye-line
