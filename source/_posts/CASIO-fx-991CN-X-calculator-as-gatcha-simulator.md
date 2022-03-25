@@ -16,7 +16,7 @@ tags:
 
 <!-- more -->
 
-{% asset_img Untitled.png %}
+{% asset_img Untitled.jpg %}
 
 CASIO fx-991CN X可谓是广受好评的面向中文用户的科学函数计算器，尽管这不是可写入程序的图形计算器，我们还是可以通过数学表达式来完成一部分功能。
 
@@ -33,7 +33,7 @@ CASIO fx-991CN X可谓是广受好评的面向中文用户的科学函数计算�
 
 Alpha+RanInt+范围可以产生~~伪~~随机整数
 
-{% asset_img Untitled1.png %}
+{% asset_img Untitled1.jpg %}
 
 而Σ可以多次产生，同时若出现除数=0或对数≤0等数学错误，运算则会直接抛出异常。
 
