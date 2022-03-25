@@ -502,7 +502,7 @@ say:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi:
-  enable: false
+  enable: true
   site_uv: true
   site_uv_icon: icon-user-line
   site_pv: true
