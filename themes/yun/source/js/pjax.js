@@ -1,5 +1,22 @@
 /* global Yun */
-
+window.loadScript = function (url, callback){
+  var script = document.createElement ("script")
+  script.type = "text/javascript";
+  if (script.readyState){ //IE
+      script.onreadystatechange = function(){
+          if (script.readyState == "loaded" || script.readyState == "complete"){
+              script.onreadystatechange = null;
+              callback();
+          }
+      };
+  } else { //Others
+      script.onload = function(){
+          callback();
+      };
+  }
+  script.src = url;
+  document.getElementsByTagName("head")[0].appendChild(script);
+}
 /**
  * 判断是否为主页，以决定是否显示侧边栏
  * (非 PJAX 已预渲染，无需判断)
