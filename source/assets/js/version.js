@@ -6,6 +6,9 @@ function getVer(){
         xmlhttp=new XMLHttpRequest();
         xmlhttp.open("GET","/version.json?"+Math.round(new Date().getTime()),false);
         xmlhttp.send();
+        if (xmlhttp.status != 200){
+            document.getElementsByClassName("powered")[0].innerHTML += "| 🧪Development Environment";
+        };
         return JSON.parse(xmlhttp.response);
     }
     let v = loadVersion();
