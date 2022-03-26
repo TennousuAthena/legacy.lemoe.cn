@@ -250,6 +250,7 @@ dns_prefetch:
 # do more(TCP handshake...) than dns-fetch
 preconnect:
   - https://cdn.jsdelivr.net
+  - https://file-cdn.qmcmc.cn
 
 # img loading="lazy"
 lazyload:
@@ -444,7 +445,7 @@ footer:
     link: https://icp.gov.moe/?keyword=20211202
 
   live_time:
-    enable: true
+    enable: false
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
     start_time: "2021-05-16T08:07:00"
@@ -458,7 +459,7 @@ footer:
   #   prefix: 本网站由
   #   suffix: 提供 CDN 加速
   # Any custom text can be defined here.
-  custom_text: <span>Hosted by <a href="https://github.com/TennousuAthena/tennousuAthena.github.io" href="_blank">GitHub</a>, With <a href="https://curl.qcloud.com/ysARP1Dp" rel="noopener" target="_blank"><img src="/assets/img/qcloud.svg" alt="腾讯云"></img></a> & <a href="https://www.cloudflare.com/">CloudFlare</a> Speeding Up</span>
+  custom_text: <span><a href="/privacy">Privacy Policy</a> | Hosted by <a href="https://github.com/TennousuAthena/tennousuAthena.github.io" href="_blank">GitHub</a>, With <a href="https://curl.qcloud.com/ysARP1Dp" rel="noopener" target="_blank"><img src="/assets/img/qcloud.svg" alt="腾讯云"></img></a> & <a href="https://www.cloudflare.com/">CloudFlare</a> Speeding Up</span>
 
 # Post meta display settings
 post_meta:
