@@ -15,12 +15,26 @@ repo = package['gh']
 api_base = "https://api.github.com/repos/" + repo
 
 print("[Get-Version]Fetching...")
-# 获取所有的commits
-res = requests.get(api_base + '/commits').json()[0]
-author = res['commit']['author']
 
-# 获取commits数
-commits = requests.get(api_base + '/stats/contributors').json()[0]['total']
+def fetch_api():
+    global res, author, commits, count
+    try:
+        res = requests.get(api_base + '/commits').json()[0]
+        author = res['commit']['author']
+
+        # 获取commits数
+        commits = requests.get(api_base + '/stats/contributors').json()[0]['total']
+
+    except:
+        print(0)
+        count+=1
+        if count > 10:
+            raise Exception('Network Error')
+            return 0
+        fetch_api()
+
+count = 0
+fetch_api()
 
 result = {
     'author': author['name'],
